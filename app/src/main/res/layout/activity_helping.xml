@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Helping">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="316dp"
+        android:layout_height="120dp"
+        android:text="we welcome you to help"
+        android:textSize="36sp"
+         android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnhelp"
+        android:layout_width="190dp"
+        android:layout_height="106dp"
+        android:text="Click Here To See Complains"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="#b8a9c9"
+        android:textStyle="bold"/>
+</RelativeLayout>
